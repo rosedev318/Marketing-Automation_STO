@@ -1,5 +1,6 @@
 require 'spec_helper'
 
+
 describe 'withdraw' do
   let!(:identity) { create :identity }
   let!(:member) { create :verified_member, email: identity.email}
